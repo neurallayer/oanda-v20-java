@@ -291,24 +291,7 @@ public class Context {
         }
 
         // Throw an error response
-        RequestException error;
-
-        if (responseMap.containsKey(statusCode)) {
-            error = (RequestException) gson.fromJson(
-                responseBody, responseMap.get(statusCode)
-            );
-            error.status = statusCode;
-        } else {
-            try {
-                error = (RequestException) gson.fromJson(
-                    responseBody, RequestException.class
-                );
-                error.status = statusCode;
-            } catch (JsonSyntaxException e) {
-                error = new RequestException(statusCode);
-            }
-        }
-
+        RequestException error = new RequestException(statusCode, responseBody);
         throw error;
     }
 

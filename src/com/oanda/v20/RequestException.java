@@ -15,6 +15,12 @@ public class RequestException extends Exception {
         this.status = status;
     }
 
+    protected RequestException(int status, String errorMessage) {
+        this.status = status;
+        this.errorMessage = errorMessage;
+    }
+
+
     protected RequestException() {
         this.status = 0;
     }

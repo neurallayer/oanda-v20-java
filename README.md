@@ -9,25 +9,20 @@ The library is packaged as a Maven Project and is available from the Maven
 Central Repository and via GitHub.
 
 #### Maven
-
 To add the library to an existing Maven project, add or update a <dependencies>
 section in the pom.xml file as follows:
 
 ```
   <dependencies>
     <dependency>
-      <groupId>com.oanda.v20</groupId>
-      <artifactId>v20</artifactId>
-      <version>3.0.25</version>
+      <groupId>org.roboquant</groupId>
+      <artifactId>oanda-v20</artifactId>
+      <version>3.1.0</version>
     </dependency>
   </dependencies>
 ```
 
-#### GitHub
 
-```
-git clone https://github.com/oanda/v20-java.git
-```
 
 ## Getting Started
 
@@ -73,9 +68,9 @@ Dependency` menu option.
 Fill in the "Add Dependency" dialog with the correct information for the v20
 library:
 
-- Group Id: `com.oanda.v20`
-- Artifact Id: `v20`
-- Version: `3.0.25`
+- Group Id: `org.roboquant`
+- Artifact Id: `oanda-v20`
+- Version: `3.1.0`
 
 Click "OK" to complete adding the v20 library.
 

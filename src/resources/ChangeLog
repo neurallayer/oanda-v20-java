@@ -1,5 +1,11 @@
 OANDA v20 API Change Log
 
+
+Version 3.1.0
+
+    * Compatible with JDK 17
+    * Upgraded outdated versions of libraries
+
 Version 3.0.25 (September 28, 2018)
 
 	* All - Added orderBook and PositionBook endpoints. Issue#29
