@@ -1,7 +1,15 @@
 # OANDA v20 REST API - Java Reference Library
 
-The Java Reference Library provides programmatic access to OANDA's next
-generation v20 REST API and trading engine.
+The Java Reference Library provides programmatic access to OANDA's next generation v20 REST API and trading engine.
+
+This is a fork of the original repo with a few changes:
+
+1. Releases with patches to a Maven Central repo
+2. Fixed warnings/errors in the Maven build
+3. Added required release functionality to `pom.xml` file
+4. Upgraded libraries
+5. Made compatible with JDK 17 
+6. Use group-id `org.roboquant` (stay compliant with Maven Central regarding owning the domain name linked to the group-id)
 
 ## Installation
 
