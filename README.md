@@ -1,3 +1,15 @@
+
+
+# NO LONGER MAINTAINED
+OANDA moved in Europe to a new entity and dropped their API support. Since we are located in Europe, we can no longer 
+use OANDA for algo-trading. 
+
+So we decided to drop OANDA support in roboquant v1.4.0 (https://roboquant.org) and also this OANDA client library is 
+no longer maintained by the roboquant team.
+ 
+Hopefully in the future OANDA adds back API access. But for now algo-traders will have to look at one of the 
+alternatives. 
+
 # OANDA v20 REST API - Java Reference Library
 
 The Java Reference Library provides programmatic access to OANDA's next generation v20 REST API and trading engine.
@@ -188,7 +200,7 @@ be displayed.
 ###### Java
 
 If you added the v20-java repository to the workspace, you can build the Java
-documentation.  Hightlight the v20-java project in the "Project Explorer" and
+documentation.  Highlight the v20-java project in the "Project Explorer" and
 from the menu select `Project->Generate Javadoc...`.  Click "Finish" on the
 "Generate Javadoc" dialog to generate the documentation and add it to the
 project.
